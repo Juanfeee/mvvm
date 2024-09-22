@@ -1,10 +1,10 @@
-package app.android.mvvm.model
+package app.android.mvvm.data.model
 
 class QuoteProvider {
-
+// colamos la informacion desde internet o loca
     companion object{
 
-        fun random():QuoteModel{
+        fun random(): QuoteModel {
             var position= (0..4).random()
             return quote[position]
         }
