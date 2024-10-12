@@ -3,7 +3,6 @@ package app.android.mvvm.domain
 import app.android.mvvm.QuoteRepository
 import app.android.mvvm.data.model.QuoteModel
 import app.android.mvvm.data.model.QuoteProvider
-import app.android.mvvm.ui.viewmodel.QuoteViewModel
 
 class GetRandomQuoteUseCase {
 
